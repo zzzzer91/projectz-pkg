@@ -7,6 +7,7 @@ type (
 		ShutdownTimeout int64  `yaml:"shutdownTimeout"` // 单位秒
 		SecretKey       string `yaml:"secretKey"`
 		ResourcePath    string `yaml:"resourcePath"`
+		CorsAllowOrigin string `yaml:"corsAllowOrigin"`
 	}
 
 	KitexConf struct {
