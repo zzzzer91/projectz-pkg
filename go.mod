@@ -12,7 +12,7 @@ require (
 	github.com/stretchr/testify v1.8.2
 	github.com/zzzzer91/gopkg v0.0.0-20230505041801-df9aeca8ee0a
 	github.com/zzzzer91/httpgo v1.1.0
-	github.com/zzzzer91/zlog v0.0.0-20230511050233-bcf821d758f6
+	github.com/zzzzer91/zlog v0.0.0-20230524093435-05b0b983e1b5
 	google.golang.org/protobuf v1.30.0
 	gopkg.in/yaml.v3 v3.0.1
 )
