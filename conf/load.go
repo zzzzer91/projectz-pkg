@@ -51,7 +51,7 @@ func LoadConf(configName string, out interface{}) {
 }
 
 func LoadAppConf(out interface{}) {
-	LoadConf(fmt.Sprintf("app.%s.yml", GetEnv()), out)
+	LoadConf(fmt.Sprintf("app.%s.yaml", GetEnv()), out)
 }
 
 // ListenDynamicConfigChange 动态监听 nacos 配置
