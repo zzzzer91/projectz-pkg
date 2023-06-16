@@ -47,7 +47,7 @@ func IsProEnv() bool {
 
 func IsOnline() bool {
 	switch GetEnv() {
-	case EnvPre, EnvPro:
+	case EnvPro:
 		return true
 	default:
 		return false
