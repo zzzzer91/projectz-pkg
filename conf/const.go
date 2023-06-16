@@ -8,6 +8,7 @@ const (
 const (
 	EnvTest = "test"
 	EnvDev  = "dev"
+	EnvPre  = "pre"
 	EnvPro  = "pro"
 )
 

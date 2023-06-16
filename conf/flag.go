@@ -37,13 +37,17 @@ func IsDevEnv() bool {
 	return GetEnv() == EnvDev
 }
 
+func IsPreEnv() bool {
+	return GetEnv() == EnvPre
+}
+
 func IsProEnv() bool {
 	return GetEnv() == EnvPro
 }
 
 func IsOnline() bool {
 	switch GetEnv() {
-	case EnvPro:
+	case EnvPre, EnvPro:
 		return true
 	default:
 		return false

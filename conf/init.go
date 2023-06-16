@@ -19,7 +19,7 @@ func Init() {
 	parseFlag()
 
 	switch *configEnv {
-	case EnvTest, EnvDev, EnvPro:
+	case EnvTest, EnvDev, EnvPre, EnvPro:
 	default:
 		panic("unknown configEnv: " + *configEnv)
 	}
