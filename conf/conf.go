@@ -16,6 +16,8 @@ type (
 
 	EtcdConf struct {
 		Addresses []string `yaml:"addresses"`
+		Username  string   `yaml:"username"`
+		Password  string   `yaml:"password"`
 	}
 
 	// OtelConf 是 opentelemetry collector 配置
